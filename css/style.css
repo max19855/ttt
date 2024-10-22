@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+.a {
+  height: 150vh;
+  background-color: chocolate;
+  margin-bottom: 20px;
+  background-image: url(../img/291-lev-nikolaievich-tolstoi-201401-06.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+h1 {
+  margin-top: 20px;
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.navig {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+li {
+  display: inline;
+  margin-left: 4em;
+  font-size: large;
+  font-weight: bold;
+  color: red;
+}
+
+.textouno {
+  margin: auto;
+  width: 1200px;
+  text-align: center;
+  background-color: rgba(22, 0, 146, 0.3);
+}
+
+.textouno > p {
+  color: gold;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.b {
+  height: 100vh;
+  background-color: brown;
+  margin-bottom: 20px;
+
+  background-color: aqua;
+
+  background-image: url(../img/instituto\ adentro.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.b > h2 {
+  text-align: center;
+
+  margin-top: 20px;
+  color: aqua;
+}
+
+.stroki {
+  background-color: rgba(22, 0, 146, 0.7);
+}
+
+.p1 {
+  text-align: center;
+
+  margin-top: 50px;
+  color: cyan;
+  font-weight: bold;
+  font-size: large;
+
+  margin-bottom: 20px;
+}
+
+.p2 {
+  color: aqua;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+.p3 {
+  text-align: center;
+  color: aqua;
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+.p4 {
+  text-align: center;
+  color: aqua;
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+.p5 {
+  text-align: center;
+  color: aqua;
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+.c {
+  height: 100vh;
+  background-image: url(../img/krasn_pl1-1140x668.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: blue;
+}
+
+.c > h3 {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.p6 {
+  text-align: center;
+
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+.footer {
+  padding-top: 18em;
+}
+
+.footer > h4 {
+  text-align: center;
+  color: red;
+  font-size: large;
+}
+
+.footer > p {
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  li {
+    display: inline;
+    margin-left: 10px;
+    font-size: large;
+    color: red;
+  }
+
+  .textouno > p {
+    color: gold;
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  .footer {
+    padding-top: 10em;
+  }
+}
+
+@media (max-width: 600px) {
+  li {
+    display: inline;
+    margin: 0;
+  }
+
+  .navig {
+    text-align: center;
+  }
+
+  li {
+    display: inline;
+    margin-left: 1.5em;
+    font-size: large;
+    color: red;
+  }
+
+  .textouno > p {
+    color: red;
+    font-weight: lighter;
+    font-size: large;
+    font-weight: bolder;
+  }
+  .a {
+    height: 500vh;
+    background-color: chocolate;
+
+    background-image: url(../img/leon-tolstoi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .b {
+    height: 300vh;
+    background-color: brown;
+    margin-bottom: 20px;
+
+    background-color: aqua;
+
+    background-image: url(../img/instituto\ adentro.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .c {
+    height: 150vh;
+    background-image: url(../img/krasn_pl1-1140x668.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: blue;
+  }
+
+  .footer {
+    padding-top: 5em;
+  }
+}
+
+@media (max-width: 400px) {
+  li {
+    display: inline;
+    margin-left: 1em;
+    font-size: smaller;
+    font-weight: bold;
+    color: red;
+  }
+
+  .a {
+    height: 350vh;
+    background-color: chocolate;
+
+    background-image: url(../img/leon-tolstoi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .b {
+    height: 200vh;
+    background-color: brown;
+    margin-bottom: 20px;
+
+    background-color: aqua;
+
+    background-image: url(../img/instituto\ adentro.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .c {
+    height: 200vh;
+    background-image: url(../img/krasn_pl1-1140x668.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: blue;
+  }
+
+  .footer {
+    padding-top: 20em;
+  }
+}
